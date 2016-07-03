@@ -15,10 +15,10 @@ local function run(msg, matches)
 end
 end 
 return {
-  description = "فقط سودو میتونه پلاگین اد کنه ;)",  
-  usage = "پلاگین با موفقیت ثبت شد :)",
+  description = "a Usefull plugin for sudo !",  
+  usage = "A plugins to add Another plugins to the server",
   patterns = {
-    "^#ادپلاگ +(.+) (.*)$"
+    "^#addplug +(.+) (.*)$"
   },
   run = run
 }
